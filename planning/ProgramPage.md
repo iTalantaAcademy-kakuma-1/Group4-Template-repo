@@ -2,6 +2,8 @@
 ___
 -  I as  the owner,  would like to see a logo of my company on the website  to enable my clients to see the name of the company.
   
+- I as the owner, would like to see my platform to have various pages so that my clients could navigate through the pages.
+  
 - I as the owner would like to see a short description of new career starts of our website,so that our clients will get the full information of our program to give them interest to apply and enroll for the course.
   
 - I as the owner would like to see a clear description of conditions and qualifications,so that my clients will be able to verify if they meet the requirements and criteries to apply for the course.
