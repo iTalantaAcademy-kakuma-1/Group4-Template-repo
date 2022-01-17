@@ -8,3 +8,7 @@
 
 .container pt-3 h2 {
 }
+.col-xs-6,
+.col-md-8 {
+  margin-top: 10%;
+}
