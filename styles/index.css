@@ -1,9 +1,14 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
 .col-xs-6 h1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: hsl(0, 0%, 100%) (210, 27%, 96%);
+  color: white;
+  font-size: 65px;
 }
 
 .col-xs-6,
@@ -22,4 +27,7 @@ a {
 .btn,
 btn-primary {
   background-color: #0000b3;
+}
+.image-background {
+  background-repeat: repeat-y;
 }
