@@ -31,3 +31,17 @@ btn-primary {
 .image-background {
   background-repeat: repeat-y;
 }
+.navbar,
+navbar-light,
+bg-white {
+}
+.col-xs-6 {
+  margin-top: 5%;
+  margin-left: 0%;
+}
+.navbar,
+navbar-light,
+bg-white {
+  margin-left: 5%;
+  margin-right: 5%;
+}
