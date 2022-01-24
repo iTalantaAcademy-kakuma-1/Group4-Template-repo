@@ -45,6 +45,146 @@ bg-white {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+#AllTable {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  border-style: solid;
+  border-color: white;
+  padding-bottom: 0%;
+  margin-bottom: 10%;
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  margin-top: -20%;
+  height: 700px;
+  line-height: 160%;
+  font-size: 150%;
+  font-family: "Space Mono", monospace;
+  padding: 2%;
+}
+#h1 {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: center;
+  max-width: none;
+}
+#AllTable p {
+  color: rgb(45, 48, 55);
+  text-align: center;
+  margin-bottom: 10%;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#table-1 {
+  background-color: rgb(74, 80, 187);
+  margin-right: 10%;
+  width: 30%;
+  height: 10%;
+  padding-left: 1%;
+  font-size: 70%;
+}
+#table-2 {
+  width: 30%;
+  height: 10%;
+  background-color: rgb(74, 80, 187);
+  margin-right: 10%;
+  padding-left: 1%;
+  font-size: 70%;
+}
+#table-3 {
+  width: 30%;
+  height: 10%;
+  background-color: rgb(74, 80, 187);
+  padding-left: 1%;
+  font-size: 70%;
+}
+#flex {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 0px;
+  padding: 0%;
+}
+#flex h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#flex p {
+  color: white;
+}
+#Pa {
+  position: absolute;
+  margin-left: 82%;
+  width: 13%;
+  margin-top: 2%;
+}
+#Pa:hover {
+  padding: 0.5%;
+  background-color: rgb(181, 195, 199);
+  width: 13%;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(74, 80, 187);
+  padding: 50px 100px;
+}
+.AllContacts {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: flex-start;
+}
+.Map {
+  position: relative;
+  outline: none;
+  touch-action: none;
+  background: #ddd;
+  cursor: grab;
+}
+div {
+  display: block;
+}
+.Fullname {
+  color: white;
+  text-align: left;
+  max-width: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 20px 0px 5px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+.input1 {
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: white;
+  width: 100%;
+}
+
 #footer{
   color: blue;
   text-align: center;
@@ -78,4 +218,9 @@ margin-bottom: 100px;
   text-align: center;
   
 
+}
+footer{
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  padding: 5%;
+  margin-top: 5%;
 }
