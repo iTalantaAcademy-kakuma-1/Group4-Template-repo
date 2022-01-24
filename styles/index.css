@@ -90,7 +90,7 @@ p {
   width: 30%;
   height: 10%;
   padding-left: 1%;
-  font-size: 70%;
+  font-size: 60%;
 }
 #table-2 {
   width: 30%;
@@ -182,38 +182,46 @@ div {
   padding: 10px 5px;
   color: white;
   width: 100%;
-
 }
-#footer{
+#footer {
   color: blue;
   text-align: center;
   font-size: 24px;
-    line-height: 140%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 700;
-    color: rgb(28, 34, 148);
-    text-align: center;
-    max-width: none;
-  
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: center;
+  max-width: none;
 }
-#para{
+#para {
   font-size: 100%;
   font-style: normal;
   vertical-align: baseline;
-text-align: center;
-font-family:"Space Mono", monospace ;
-font-weight: lighter;
-word-break: break-word;
-margin: 0px;
-max-width: none;
-color:(45, 48, 55); ;
-margin-bottom: 100px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-weight: lighter;
+  word-break: break-word;
+  margin: 0px;
+  max-width: none;
+  color: (45, 48, 55);
+  margin-bottom: 100px;
 }
-.images{
+.images {
   position: relative;
   bottom: 100px;
   text-align: center;
-  
+}
+div p {
+  margin-left: 2%;
+  font-family: "Space Mono", monospace;
+}
+div a {
+  margin-left: 2%;
+  font-family: "Work Sans", sans-serif;
+  color: #0000b3;
+}
+div button {
 }
