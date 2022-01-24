@@ -60,6 +60,7 @@ bg-white {
   font-size: 150%;
   font-family: "Space Mono", monospace;
   padding: 2%;
+  margin-right: 2%;
 }
 #h1 {
   font-size: 24px;
@@ -158,6 +159,16 @@ p {
   touch-action: none;
   background: #ddd;
   cursor: grab;
+  margin: 0;
+  padding: 2%;
+  border: 0;
+  font-size: 100%;
+  font-style: normal;
+  vertical-align: baseline;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100%;
 }
 div {
   display: block;
@@ -195,6 +206,7 @@ div {
   color: rgb(28, 34, 148);
   text-align: center;
   max-width: none;
+  margin-top: 10%;
 }
 #para {
   font-size: 100%;
@@ -224,4 +236,90 @@ div a {
   color: #0000b3;
 }
 div button {
+}
+footer {
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  padding: 2%;
+}
+.ContactsHeader {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  max-width: none;
+}
+.p-0 {
+  color: white;
+  text-align: left;
+  max-width: 500px;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0px 0px 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(74, 80, 187);
+  padding: 50px 100px;
+  width: 100%;
+  padding: 20px;
+  padding-left: 10%;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: flex-start;
+  margin-left: 2%;
+}
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+iframe {
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+.sectionC {
+  margin: 2%;
 }
