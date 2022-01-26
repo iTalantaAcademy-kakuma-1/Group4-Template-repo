@@ -686,5 +686,28 @@ li:hover {
   right: 0%;
   margin-left: 100%;
   margin-right: 0%;
-  padding-left: 50%;
+  padding-left: 30%;
+}
+#naver1 a {
+  margin-left: 7%;
+  color: rgb(127, 127, 127);
+  text-transform: uppercase;
+}
+#Full-name {
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 5px;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 20px;
+  width: 50%;
+}
+#naver1 > a:hover {
+  text-decoration: underline;
+  width: 10%;
+}
+#f {
+  margin-left: 10%;
+  padding-right: 5%;
 }
